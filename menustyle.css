@@ -1,0 +1,125 @@
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background-color:#4e6075;
+	border-bottom:5px solid brown;
+	min-height:38px;
+}
+#menu li{
+	float:left;
+	border-right:2px solid brown;
+	border-left:2px solid #930b27;
+	position:relative:
+	
+}
+#menu li a{
+	color:white;
+	text-decoration:none;
+	 background-color:#4e6075;
+	 padding:10px 20px;
+	 display:block;
+	 transition:1s all ease;
+}
+#menu li a:hover{
+	background-color:green;
+}
+#menu li:first-child{
+	border-right:none;
+}
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	transition:1s all ease;
+	/*transition:0.5s all ease;*/
+}
+#menu li:hover ul{
+	left:180px;
+}
+#menu li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:2px solid brown;
+	border-bottom:2px solid #930b27;
+	width:100px;
+	position:relative;
+}
+#menu li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:85px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+p{
+	font-family: 'Lobster', cursive;
+}
+
+
+
+#menu2{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4E4E4E;
+	border-bottom:4px solid orange;
+	min-height:58px;
+	margin:0 auto;
+}
+#menu2 li{
+	float:left;
+	list-style-type:none;
+	border-right:3px solid #605B5B;
+	border-left:3px solid #2B2A2A;
+	border-bottom:3px solid orange;
+	position:relative;
+}
+#menu2 li:last-child{
+	border-right:none;
+}
+#menu2 li:first-child{
+	border-left:none;
+}
+#menu2 li a{
+	color:white;
+	text-decoration:none;
+	background:#4E4E4E;
+	padding:20px 20px;
+	display:block;
+	transition:0.3s all ease;
+}
+#menu2 li a:hover{
+	background:brown;
+}
+#menu2 li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	/*transition:0.5s all ease;*/
+}
+#menu2 li:hover ul{
+	left:0;
+}
+#menu2 li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:3px solid #605B5B;
+	border-bottom:3px solid #2B2A2A;
+	width:200px;
+	position:relative;
+}
+#menu2 li ul li ul{
+	position:absolute;
+	top:-999999;
+}
+#menu2 li ul li:hover ul{
+	top:0;
+	left:200px;
+}

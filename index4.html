@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--css by Me -->
+		<meta charset="UTF-8"/>
+		<title> List, Form, table</title>
+		<link rel="stylesheet" href="style2.css"/>
+	</head>
+	
+	<body>
+		<h1>List...</h1>
+		<ul>
+			<li>No. 1</li>
+			<li>No. 2</li>
+			<li>No. 3</li>
+			<li>No. 4</li>
+		</ul>
+		<ol type="I">
+			<li>No. 1</li>
+			<li>No. 2</li>
+			<li>No. 3</li>
+			<li>No. 4</li>
+		</ol>
+		<dl>
+			<dt>WWW</dt>
+			<dd>-World Wide Web</dd>
+			<dt>WHO</dt>
+			<dd>-World Health Organisation</dd>
+		</dl>
+		<hr/>
+		<h1>Table...</h1>
+		<table cellpadding="3">
+		<caption>Table Name</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Class</th>
+					<th>Roll no</th>
+				</tr>
+			</thead>
+				<tr>
+					<td>Jerin</td>
+					<td>10</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Sami</td>
+					<td>9</td>
+					<td>11</td>
+				</tr>
+			<tfoot>
+				<tr>
+					<td colspan="3">**Other students absent</td>
+				</tr>
+			</tfoot>
+				<tr>
+					<td colspan="1">Mimi</td>
+					<td class="left" colspan="2">10</td>
+				</tr>
+		</table>
+		<hr/>
+			<h1>Form Learning...</h1>
+		<form action="" method="">
+		<fieldset>
+			<legend>This is my form</legend>
+			First name:<br/>
+			<input type="text" name="firstname" placeholder="write your firstname">
+			
+			<br/> <br/>
+			Last name:<br/>
+			<input type="text" name="lastname" placeholder="last name"> 
+			
+			<br/> <br/>
+			Email:
+			<input type="email">
+			
+			<br/> <br/>
+			Gender:<br/>
+			<input type="radio" name="gender">Male <br/>
+			<input type="radio" name="gender">Female<br/>
+			
+			<br/> <br/>
+			Country:
+			<select type="country">
+			<option>Bangladesh</option>
+			<option>Uk</option>
+			<option>USA</option>
+			<option>London</option>
+			</select>
+			
+			<br/><br/>
+			Birthdate:
+			<input type="date" min="1950" max="2022">
+			
+			<br/><br/>
+			Age:
+			<input type="number" min="5" max="50">
+			
+			<br/> <br/>
+			Favourite Color:
+			<input type="color">
+			
+			<br/> <br/>
+			Upload cv:
+			<input type="file">
+			
+			<br/> <br/>
+			Password:
+			<input type="password">
+			
+			<br/><br/>
+			Write something:<br/>
+			<textarea rows="10" col="10">enter your address</textarea>
+			
+			
+			 <br><br>
+			<input type="submit">
+			<input type="reset"> <br/><br/>
+		</fieldset>
+		</form>
+		
+		<h1>Button & Javascript..</h1>
+		<button class="mybtn" onclick="Jerin()">click here</button>
+		<script>
+			function Jerin(){
+			alert("you clicked me!")
+			}
+		</script>
+		<hr/>
+		<h1>Audio & Video...</h1>
+		<audio controls autoplay loop>
+			<source src="media/Aur hum tum.mp3">
+		</audio>
+		<br/> <br/>
+		<video controls>
+			<source src="media/sami childhood.mp4">
+		</video>
+		<br/><br/>
+		<h2 class="color">YouTube video</h2>
+			<iframe width="700" height="400" src="https://www.youtube.com/embed/gC791ch1RpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+		<br/><br/>
+		<h2>Iframe</h2>
+			<iframe src="http://quran.com/"></iframe>
+		
+	
+	</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.pagewrap{
+	color:green;
+	font-family:arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:italic;
+	font-variant:small-caps;
+	line-height:150%;
+	background-image:url("image/live.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+h1{
+	color:#a51047;
+	text-decoration:underline;
+}
+.yellow{
+	color:#1977f3;
+}
+.blue{
+	color:#ad1890;
+}
+.red{
+	color:#820707;
+}

@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: antiquewhite;
+}
+blockquote{
+	background: #ddd;
+	margin-left: 50px;
+	padding: 10px;
+	padding-left: 20px;
+	border-left: 2px solid brown;
+}
+.wrapper {
+	width: 960px;
+	margin: 20px auto;
+}
+.header {
+	background-color: hwb(43 5% 53%);
+	padding: 15px;
+	border-bottom: 5px solid #7d0404;
+}
+.header h2 {
+	color: floralwhite;
+	font-family: cursive;
+}
+.header p {
+	color: aqua;
+	font-family: cursive;
+}
+.nav {
+	background-color: aliceblue;
+	height: 40px;
+	border-bottom: 5px solid #7d0404;
+}
+.nav ul {
+	background-color: aliceblue;
+	list-style-type: none;
+	z-index: 999;
+}
+.nav ul li {
+	float: left;
+	border-right: 1px solid #7d0404;
+}
+.nav ul li:last-child {
+	border: none;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: #7d0404;
+	display: block;
+	padding: 10px 20px;
+	font-family: Arial;
+}
+.nav ul li a:hover{
+	color: #827159;
+}
+.nav ul li{
+	position:relative;
+}
+.nav ul li ul{
+	position:absolute;
+	left: -99999px;
+	background-color: aliceblue;
+}
+.nav ul li:hover ul{
+	left:0;
+}
+.nav ul li ul li:first-child{
+	border-top: 1px solid #7d0404;
+}
+.nav ul li ul li{
+	float: none;
+	border-right: none;
+	border-bottom: 1px solid #7d0404;
+	width: 200px;
+}
+.slider_wrapper{
+	
+}
+.content_wrapper{
+	background-color: white;
+	padding: 10px;
+	overflow: hidden;
+}
+.content{
+	width: 620px;
+	margin-right: 20px;
+	float: left;
+}
+.content h2{
+	color: #827159;
+	font-family: cursive;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+.content h3{
+	color: #827159;
+	font-family: cursive;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.content img{
+	width: 450px;
+}
+.content figure{
+	width: 450px;
+	padding: 10px;
+	background: #827159;
+	margin: 0 auto;
+	display: block;
+}
+.content figcaption{
+	text-align: center;
+	color: darkgreen;
+	font-family:  Calibri;
+	font-weight: bold;
+}
+.content p{
+	margin: 15px 0;
+}
+
+.sidebar{
+	width: 300px;
+	float: left;
+}
+.sidebar ul{
+	list-style-type: circle;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: #827159;
+	padding: 3px;
+	display: block;
+}
+.sidebar h2{
+	color: #827159;
+}
+.footer{
+	background-color: hwb(43 5% 53%);
+	padding: 10px;
+	text-align: center;
+}
+.footer p{
+	color: antiquewhite;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--New vs code learning with me jerin-->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home page</title>
+
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="header">
+					<h2>Home page title</h2>
+					<p>subtitle goes here</p>
+				</div>
+			</header>
+			<nav>
+				<div class="nav">
+					<ul>
+						<li><a href="#">Menu item &raquo;</a>
+						<ul>
+							<li><a href="#">Dropdown</a></li>
+							<li><a href="#">Dropdown</a></li>
+							<li><a href="#">Dropdown</a></li>
+							<li><a href="#">Dropdown</a></li>
+						</ul>
+						</li>
+						<li><a href="#">Menu item</a></li>
+						<li><a href="#">Menu item</a></li>
+						<li><a href="#">Menu item</a></li>
+						<li><a href="#">Menu item</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<section>
+				<div class="slider_wrapper">
+					<div class="slider-wrapper theme-dark">
+						<div id="slider" class="nivoSlider">
+							<img src="img/toystory.jpg" />
+							<img src="img/up.jpg" />
+							<img src="img/walle.jpg" />
+							<img src="img/nemo.jpg" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="content_wrapper">
+				<div class="content">
+					<article>
+						<h2>Lorem ipsum dolor sit amet</h2>
+						<p>
+							neque id egestas. Nulla tincidunt lacus enim, eget
+							semper turpis molestie in. Pellentesque aliquam, ex
+							nec auctor pulvinar, est urna accumsan libero, non
+							scelerisque leo turpis non metus. Morbi sit amet
+							ante dolor. Proin at dignissim nibh. Fusce venenatis
+							metus sed lectus interdum fringilla. Quisque gravida
+							orci neque, sed vestibulum dolor
+						</p>
+					</article>
+				</div>
+				<div class="sidebar">
+					<aside>
+						<h2>Sidebar Heading:</h2>
+						<ul>
+							<li><a href="#">List Item</a></li>
+							<li><a href="#">List Item</a></li>
+							<li><a href="#">List Item</a></li>
+							<li><a href="#">List Item</a></li>
+							<li><a href="#">List Item</a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<footer>
+				<div class="footer">
+					<p>&copy;Lorem ipsum dolor sit amet</p>
+				</div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	</body>
+</html>

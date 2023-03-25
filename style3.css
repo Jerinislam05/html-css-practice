@@ -1,0 +1,38 @@
+*{margin:0; padding:0}
+.wrapper{
+	width:960px;
+	margin:50px auto;
+}
+.box img{
+	width:300px;
+	height:180px;
+}
+.box h2{
+	color:orange;
+}
+.box p{
+	text-align:justify;
+}
+.box{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.nomargn{
+	margin-right:0;
+}
+.box a{
+	text-decoration:none;
+	background-color:orange;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+	padding:3px 0;
+	transition:all 2s ease;
+	
+}
+.box a:hover{
+	background:green;
+	color:brown;
+}
